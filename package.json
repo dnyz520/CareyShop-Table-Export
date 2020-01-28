@@ -1,7 +1,7 @@
 {
   "name": "@careyshop/vue-table-export",
   "description": "vue plugin to export data to csv | xlsx | txt file",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "author": "思维空间 <252404501@qq.com>",
   "private": false,
   "license": "MIT",
