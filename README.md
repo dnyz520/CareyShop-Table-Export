@@ -2,4 +2,4 @@
 
 ## externals
 
-VueTableExport
+tableExport
