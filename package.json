@@ -1,6 +1,6 @@
 {
   "name": "@careyshop/vue-table-export",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "vue plugin to export data to text | json | csv | xls",
   "main": "tableExport.js",
   "scripts": {
