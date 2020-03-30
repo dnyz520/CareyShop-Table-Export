@@ -1,6 +1,6 @@
 import exportFromJSON from "export-from-json"
 
-export class tableExport {
+export class TableExport {
   constructor(columns = [], data = [], replace = {}, fileName = 'export', type = 'xls', withBOM = false) {
     this.columns = columns;
     this.data = data;
