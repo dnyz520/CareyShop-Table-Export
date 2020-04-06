@@ -103,7 +103,7 @@ export function export_table_to_excel(id) {
 
     /* original data */
     var data = oo[0];
-    var ws_name = "SheetJS";
+    var ws_name = "CareyShop";
     console.log(data);
 
     var wb = new Workbook(), ws = sheet_from_array_of_arrays(data);
@@ -131,7 +131,7 @@ export function export_json_to_excel(th, jsonData, defaultTitle, options = { mer
     var data = jsonData;
     data.unshift(th);
     if (options.header) data.unshift([options.header]);
-    var ws_name = "SheetJS";
+    var ws_name = "CareyShop";
 
     var wb = new Workbook(), ws = sheet_from_array_of_arrays(data);
 
