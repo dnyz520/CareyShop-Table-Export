@@ -1,7 +1,7 @@
 {
   "name": "@careyshop/vue-table-export",
   "description": "vue plugin to export data to text | json | csv | xlsx",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "author": "思维空间 <252404501@qq.com>",
   "private": false,
   "license": "AGPL-3.0",
