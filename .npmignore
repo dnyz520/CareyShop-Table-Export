@@ -1,6 +1,0 @@
-*
-!/dist/*.js
-!/dist/*.map
-!LICENSE
-!README.md
-!package.json

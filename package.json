@@ -3,8 +3,14 @@
   "description": "vue plugin to export data to text | json | csv | xlsx",
   "version": "1.0.14",
   "author": "思维空间 <252404501@qq.com>",
-  "private": false,
   "license": "AGPL-3.0",
+  "private": false,
+  "files": [
+    "/dist/*",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ],
   "bugs": {
     "url": "https://github.com/dnyz520/CareyShop-Table-Export/issues"
   },
