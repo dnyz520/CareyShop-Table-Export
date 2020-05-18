@@ -34,6 +34,7 @@ const vueTableExport = {
         columns: [],
         data: [],
         title: 'table',
+        sheet: 'CareyShop',
         header: null,
         merges: []
       };
@@ -44,7 +45,7 @@ const vueTableExport = {
       const header = _params.columns.map(e => e.label);
       const data = _params.data.map(row => _params.columns.map(col => row[col.prop]));
       // 导出
-      Excel.export_json_to_excel(header, data, _params.title, {merges: _params.merges, header: _params.header});
+      Excel.export_json_to_excel(header, data, _params.title, _params.sheet, {merges: _params.merges, header: _params.header});
 
       // 完成
       resolve()
